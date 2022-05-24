@@ -1,0 +1,12 @@
+
+Problema 5
+Hay 2 maneras de tratar con las excepciones:
+- Capturarlas con try-catch
+- No capturarlas (declarando “throws xxException” en la función).
+¿En qué casos nos interesará capturarlas, y en cuales no?
+
+
+RESPUESTA:
+
+Depende de si nos interesa mas usar nuestras propias excepciones (con try catch) o si de lo contario
+usaremos excepciones predefinidas, que en ese caso ira mejor usar "throw"
